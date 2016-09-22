@@ -145,7 +145,7 @@ $headers = 'From: '.$email_from."\r\n".
 
 
 Thank you for contacting us. We will be in touch with you very soon.
-
+<br><a href="home.html">Back Home</a>
 
 
 <?php
