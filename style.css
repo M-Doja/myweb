@@ -17,11 +17,12 @@
 .Social-link {text-align: center;}
 
 ul {padding-left: 0}
+
 ul img {background: #000;text-align: center;padding: 3px; border-radius: 1em;}
 ul #th img{background: none; padding: 0;border: 10px #000 solid;}
 .Social-link li {list-style: none;display: inline-block;margin:3em 6px 0 6px}
 .botTreeLink img {background: none;margin-left: -20px;}
-img {margin: 0 auto}
+img {margin: 0;}
 .wrap {padding: 5px 20px;text-align: center;}
 .wrap .col-md-4 {margin-top: 2em;}
 .wrap p {margin: 1em}
