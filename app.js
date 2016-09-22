@@ -1,23 +1,11 @@
-(function(){
-  var vm = this;
-    vm.loading = false;
+// using SendGrid's Node.js Library
+// https://github.com/sendgrid/sendgrid-nodejs
+var sendgrid = require("sendgrid")("SENDGRID_APIKEY");
+var email = new sendgrid.Email();
 
-  vm.send = function (mail){
-    vm.loading = true;
-    console.log(mail);
-		vm.from = document.getElementById('from').value;
-		console.log(vm.from);
-    $http.post('/sendmail', {
-      to: 'dojadeveloper@gmail.com',
-			from: 'mdunson@dot.com',
-      subject: 'Message from '+vm.from ,
-      text: mail.message
-    }).then(res=>{
-        vm.loading = false;
-        vm.msg = document.getElementById('msg').value = '';
-        vm.from = document.getElementById('from').value = '';
-        vm.serverMessage = '! Message sent successfully';
-    });
-  }
+email.addTo("test@sendgrid.com");
+email.setFrom("you@youremail.com");
+email.setSubject("Sending with SendGrid is Fun");
+email.setHtml("and easy to do anywhere, even with Node.js");
 
-})();
+sendgrid.send(email);
