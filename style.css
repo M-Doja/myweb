@@ -1,0 +1,28 @@
+.glyphicon{ font-size: 20px;padding-left: 10px; padding-top:0; display: inline-block}
+.btn-primary {font-size: 20px;}
+.dropdown {padding:15px 45px;}
+.dropdown-toggle {font-size: 1.3em;}
+.dropdown-menu {height: 200px}
+.dropdown-menu li {margin: 2em;}
+
+#jdev {margin-bottom: 6em;}
+#mepic {max-height: 200px;height: 100%;max-width: 600px;width:100%;}
+.seeProj {border-top: 5px solid #000;}
+.aboutSection {text-align: center;padding-top: 1em;margin-bottom: 10em;}
+#about {margin-top: 200px;}
+.aboutSection p{font-size: 1.4em; line-height: 1.6em;}
+#pic {float:left;margin:1.5em}
+.top {margin-top: 2em;}
+.banner img {left:0; width: 100%;min-height: 150px;}
+.Social-link {text-align: center;}
+
+ul {padding-left: 0}
+ul img {background: #000;text-align: center;padding: 3px; border-radius: 1em;}
+ul #th img{background: none; padding: 0;border: 10px #000 solid;}
+.Social-link li {list-style: none;display: inline-block;margin:3em 10px 0 10px}
+.botTreeLink img {background: none;margin-left: -20px;}
+img {margin: 0 auto}
+.wrap {padding: 5px 20px;text-align: center;}
+.wrap .col-md-4 {margin-top: 2em;}
+.wrap p {margin: 1em}
+.last {margin-bottom: 6em;}
